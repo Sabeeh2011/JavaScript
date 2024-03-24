@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Generate random number between 01 and 20 </h1>
+    <button onclick="random_number()">Click to Generate</button>
+    <p id="F1"></p>
+</body>
+<script>
+    function random_number(){
+    for (i=0 ; i<=20 ; i++){
+    result = Math.random()*10
+    new_result=Math.round(result)
+    console.log(new_result)
+    }
+}
+</script>
+</html>
